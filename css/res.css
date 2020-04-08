@@ -1,0 +1,158 @@
+@media (max-width: 880px){
+    .search{
+        display: none;
+    }
+    .banner .header .nev{
+        width: 70%;
+    }
+    .header .logo{
+        width: 15%;
+    }
+}
+@media (max-width: 768px){
+    .whatwedo, .o-l-w{
+        padding: 2rem 2rem 2rem;
+    }
+    .whatwedo .whatwedoitem .itemBx img{
+        width: 120px;
+        padding: 30px;
+    }
+    .testimonials{
+        padding: 2rem;
+    }
+    .ohc{
+        padding: 2rem;
+    }
+    .m-t-team{
+        padding: 2rem;
+    }
+    .about-us{
+        width: 100%;
+        background: #444444;
+    }
+    .recent-posts{
+        width: 50%;
+        background: #1a1a1a;
+    }
+    .c-u{
+        width: 50%;
+    }
+    .f-img-c{
+        padding: 2rem;
+    }
+    .team-list .imgBxx{
+        width: 100px;
+        height: 100px;
+    }
+    .line-b-r{
+        height: 80px;
+        border: 2px solid #207b20;
+        margin: 15px;
+    }
+    .t-m-s-link{
+        margin-top: 7px;
+    }
+    .team-list .imgBxx1,
+    .team-list .imgBxx3,
+    .team-list .imgBxx4{
+        background-size: 100px;
+    }
+    .team-list .imgBxx5{
+        background-size: 250%;
+    }
+}
+@media (max-width: 600px){
+    .recent-posts{
+        width: 100%;
+    }
+    .c-u{
+        width:100%
+    }
+    .banner .header{
+        flex-direction: row-reverse;
+    }
+    .banner .header .nev{
+        width: 100%;
+    }
+    .banner .header .nev .closebtn,
+    .banner .header .openNav{
+        display: block;
+    }
+    .overlay{
+        position: fixed;
+        height: 0;
+        width: 100%;
+        background-color: #3eba3ecc;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .overlay-content{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .banner .header .nev ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .header .nev ul li a{
+        font-family: 'Proxima Nova';
+        font-weight: bold;
+        font-size: 6rem;
+        text-decoration: none;
+        display: block;
+        color: #ffffff;
+        padding: 2rem;
+        margin-right: 0;
+    }
+    .overlay .closebtn{
+        position: absolute;
+        top: 1%;
+        right: 5%;
+        font-size: 5rem;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .header .openNav{
+        font-size: 3rem;
+        margin: -4px 8px;
+        color: #fff;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .banner .header .nev ul li:focus a{
+        border-top: 5px solid #ffffff;
+    }
+    .o-l-w .imgGa .imgGa-img{
+        margin: 0.5rem;
+    }
+    .ohc .content a i{
+        z-index: 0;
+    }
+    .o-l-w .content a i{
+        z-index: 0;
+    }
+}
+@media (max-width: 600px){
+    .whatwedo .whatwedoitem{
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+    .whatwedo .whatwedoitem .itemBx{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .whatwedo .whatwedoitem .itemBx img{
+        margin-bottom: 0.5rem;
+    }
+    .whatwedo .whatwedoitem .itemBx a{
+        margin-top: 0;
+    }
+}

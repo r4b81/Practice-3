@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="font/proxima_ssv/ProximaNova-Regular.otf" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/res.css">
+    <title>Hello</title>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+        document.getElementById("openNav").style.display = "none";
+        document.getElementById("logo").style.display = "none";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+        document.getElementById("openNav").style.display = "block";
+        document.getElementById("logo").style.display = "block";
+      }
+    </script>
+  </head>
+  <body>
+    <!-- banner -->
+
+    <div class="banner" id="banner">
+      <header class="header">
+        <div id="myNav" class="nev overlay">
+          <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()">&times;</a>
+          <ul class="overlay-content">
+            <li><a href="#banner" onclick="closeNav()">Home</a></li>
+            <li><a href="#whatwedo" onclick="closeNav()">What we do?</a></li>
+            <li><a href="#testimonials" onclick="closeNav()">Testimonial</a></li>
+            <li><a href="#wwu" onclick="closeNav()">Contact Us</a></li>
+          </ul>
+        </div>
+        <span id="openNav" class="openNav" onclick="openNav()">&#9776;</span>
+        <a id="logo" class="logo" href="#banner">Hello</a>
+        <div class="search">
+          <div class="t-r">
+            <div class="s-bg">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="Search..."
+              /><a href="#"><i class="material-icons">search</i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <h2>Art in Eternal Happiness</h2>
+        <br /><br />
+        <a href="#wwu">work with us</a>
+      </div>
+      <div class="sd-btn">
+        <a href="#whatwedo"><span>scroll down</span> 
+        <i class="material-icons sd-btn-icon">expand_more</i>
+      </a>
+      </div>
+    </div>
+
+    <!-- what we do? -->
+
+    <section
+      class="whatwedo container m-a-all js--sticky--waypoint"
+      id="whatwedo"
+    >
+      <h2 class="heading">What we do</h2>
+      <div class="line"></div>
+      <p class="text">
+        Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
+      </p>
+      <div class="whatwedoitem">
+        <div class="itemBx">
+          <img src="images/item1.png" alt="" />
+          <h2>lorem ipsum</h2>
+          <p>
+            This is Photoshop's version Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fugiat deleniti cupiditate ad facilis, quos optio!
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div class="itemBx">
+          <img src="images/item2.png" alt="" />
+          <h2>lorem ipsum</h2>
+          <p>
+            This is Photoshop's version Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fugiat deleniti cupiditate ad facilis, quos optio!
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+        <div class="itemBx">
+          <img src="images/item3.png" alt="" />
+          <h2>lorem ipsum</h2>
+          <p>
+            This is Photoshop's version Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fugiat deleniti cupiditate ad facilis, quos optio!
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- our latest work -->
+
+    <section class="o-l-w" id="o-l-w">
+      <h2 class="heading">OUR LATEST WORK</h2>
+      <div class="line"></div>
+      <p class="text">
+        Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
+      </p>
+
+      <div class="st-btn">
+        <button class="st-btn-1" type="button" data-filter="all">All</button>
+        <button class="st-btn-2" type="button" data-filter=".photograpy">
+          Photograpy
+        </button>
+        <button class="st-btn-3" type="button" data-filter=".design">
+          Design
+        </button>
+        <button class="st-btn-4" type="button" data-filter=".print">
+          Print
+        </button>
+      </div>
+
+      <div class="imgGa container imgGa-mix">
+        <div class="imgGa-img mix photograpy">
+          <img src="images/img1.jpg" alt="" />
+        </div>
+        <div class="imgGa-img mix design">
+          <img src="images/img2.jpg" alt="" />
+        </div>
+        <div class="imgGa-img mix design print">
+          <img src="images/img3.jpg" alt="" />
+        </div>
+        <div class="imgGa-img mix photograpy">
+          <img src="images/img4.jpg" alt="" />
+        </div>
+        <div class="imgGa-img mix design">
+          <img src="images/img5.jpg" alt="" />
+        </div>
+        <div class="imgGa-img mix design">
+          <img src="images/img6.jpg" alt="" />
+        </div>
+        <div class="imgGa-img mix design print">
+          <img src="images/img7.jpg" alt="" />
+        </div>
+        <div class="imgGa-img mix photograpy">
+          <img src="images/img8.jpg" alt="" />
+        </div>
+        <div class="imgGa-img mix photograpy print">
+          <img src="images/img9.jpg" alt="" />
+        </div>
+        <div class="imgGa-img mix photograpy">
+          <img src="images/img10.jpg" alt="" />
+        </div>
+      </div>
+      <div class="content">
+        <a href="javascript: void(0)"
+          ><p style="display: inline-block;">View more work</p>
+          <i class="material-icons">trending_flat</i></a
+        >
+      </div>
+    </section>
+
+    <!-- testimonials -->
+
+    <section class="testimonials container m-a-all" id="testimonials">
+      <h2 class="heading">TESTIMONIALS</h2>
+      <div class="line"></div>
+      <p class="text">
+        Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
+      </p>
+
+      <div class="testi-text">
+        <!-- <i class="material-icons">keyboard_arrow_left</i> -->
+        <div class="t-t-text">
+          <p>
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium provident incidunt ipsa quo molestias. Perspiciatis
+            eligendi aspernatur ipsa ullam, laudantium magni quidem, omnis
+            quibusdam corporis, molestias eum ratione reprehenderit aperiam.
+            Quos debitis nihil?"
+          </p>
+
+          <div class="t-t-info">
+            <img src="images/man1.jpg" alt="" />
+            <div class="t-t-n">
+              <h2>Mr. Herp</h2>
+              <p>CEO of Meme, Inc</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="t-t-text">
+          <p>
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium provident incidunt ipsa quo molestias. Perspiciatis
+            eligendi aspernatur ipsa ullam, laudantium magni quidem, omnis
+            quibusdam corporis, molestias eum ratione reprehenderit aperiam.
+            Quos debitis nihil?"
+          </p>
+
+          <div class="t-t-info">
+            <img src="images/man1.jpg" alt="" />
+            <div class="t-t-n">
+              <h2>Mr. Herp</h2>
+              <p>CEO of Meme, Inc</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="t-t-text">
+          <p>
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Praesentium provident incidunt ipsa quo molestias. Perspiciatis
+            eligendi aspernatur ipsa ullam, laudantium magni quidem, omnis
+            quibusdam corporis, molestias eum ratione reprehenderit aperiam.
+            Quos debitis nihil?"
+          </p>
+
+          <div class="t-t-info">
+            <img src="images/man1.jpg" alt="" />
+            <div class="t-t-n">
+              <h2>Mr. Herp</h2>
+              <p>CEO of Meme, Inc</p>
+            </div>
+          </div>
+        </div>
+        <!-- <i class="material-icons">keyboard_arrow_right</i> -->
+      </div>
+    </section>
+
+    <!-- our happy client -->
+
+    <section class="ohc" id="ohc">
+      <h2 class="heading">OUR HAPPY CLIENT</h2>
+      <div class="line"></div>
+      <p class="text">
+        Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
+      </p>
+
+      <div class="ohc-logo container">
+        <div class="ohc-img"><img src="images/google.png" alt="" /></div>
+        <div class="ohc-img"><img src="images/yahoo.png" alt="" /></div>
+        <div class="ohc-img"><img src="images/microsoft.png" alt="" /></div>
+        <div class="ohc-img"><img src="images/intel.png" alt="" /></div>
+        <div class="ohc-img"><img src="images/qualcomm.png" alt="" /></div>
+        <div class="ohc-img"><img src="images/cisco.png" alt="" /></div>
+        <div class="ohc-img">
+          <img class="apple" src="images/apple.png" alt="" />
+        </div>
+        <div class="ohc-img"><img src="images/asus.png" alt="" /></div>
+      </div>
+      <div class="content">
+        <a href="#"
+          ><p style="display: inline-block;">See all client</p>
+          <i class="material-icons">trending_flat</i></a
+        >
+      </div>
+    </section>
+
+    <!-- meet the team -->
+
+    <section class="m-t-team">
+      <h2 class="heading">OUR HAPPY CLIENT</h2>
+      <div class="line"></div>
+      <p class="text">
+        Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
+      </p>
+
+      <div class="team-mem container">
+        <div class="team-list">
+          <div class="imgBxx imgBxx1"></div>
+          <div class="line-b-r"></div>
+          <h2 class="t-m-name">Krisna Wijaya</h2>
+          <div class="t-m-s-link">
+            <a href="#"><img src="images/icon1.png" alt="" /></a>
+            <a href="#"><img src="images/icon2.png" alt="" /></a>
+            <a href="#"><img src="images/icon3.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="team-list">
+          <div class="imgBxx imgBxx2"></div>
+          <div class="line-b-r"></div>
+          <h2 class="t-m-name">Gabriel Yoshua</h2>
+          <div class="t-m-s-link">
+            <a href="#"><img src="images/icon1.png" alt="" /></a>
+            <a href="#"><img src="images/icon2.png" alt="" /></a>
+            <a href="#"><img src="images/icon3.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="team-list">
+          <div class="imgBxx imgBxx3"></div>
+          <div class="line-b-r"></div>
+          <h2 class="t-m-name">Adik N.K.L</h2>
+          <div class="t-m-s-link">
+            <a href="#"><img src="images/icon1.png" alt="" /></a>
+            <a href="#"><img src="images/icon2.png" alt="" /></a>
+            <a href="#"><img src="images/icon3.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="team-list">
+          <div class="imgBxx imgBxx4"></div>
+          <div class="line-b-r"></div>
+          <h2 class="t-m-name">Zan D.J</h2>
+          <div class="t-m-s-link">
+            <a href="#"><img src="images/icon1.png" alt="" /></a>
+            <a href="#"><img src="images/icon2.png" alt="" /></a>
+            <a href="#"><img src="images/icon3.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="team-list">
+          <div class="imgBxx imgBxx5"></div>
+          <div class="line-b-r"></div>
+          <h2 class="t-m-name">Faizal Febri</h2>
+          <div class="t-m-s-link">
+            <a href="#"><img src="images/icon1.png" alt="" /></a>
+            <a href="#"><img src="images/icon2.png" alt="" /></a>
+            <a href="#"><img src="images/icon3.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work with us -->
+
+    <section class="wwu" id="wwu">
+      <div class="content">
+        <a href="#footer">work with us</a>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer" id="footer">
+      <div class="container m-a-all">
+        <!-- about us -->
+        <div class="about-us">
+          <h2 class="heading">about us</h2>
+          <div class="line"></div>
+          <p class="text">
+            Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor
+            aliquet. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Asperiores aliquid tenetur neque tempore deserunt cum numquam
+            corporis obcaecati quae, vero nostrum reiciendis unde eius? Dolorem
+            reprehenderit labore numquam perspiciatis consequatur eligendi
+            aliquid. Neque, aperiam. Eos dolores sequi quos animi maiores
+            officia. Dignissimos sunt eos labore culpa nulla dolorum sed est!
+          </p>
+          <div class="t-m-s-link">
+            <a href="#"><img src="images/icon1.png" alt="" /></a>
+            <a href="#"><img src="images/icon2.png" alt="" /></a>
+            <a href="#"><img src="images/icon3.png" alt="" /></a>
+          </div>
+        </div>
+        <!-- recent posts -->
+        <div class="recent-posts">
+          <h2 class="heading">RECENT POSTS</h2>
+          <div class="line"></div>
+          <div class="post-list">
+            <div class="p-l-img"><img src="images/img1.jpg" alt="" /></div>
+            <div class="p-l-text">
+              <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
+              <a class="p-l-text-a-1" href="#">magazine</a>
+            </div>
+          </div>
+
+          <div class="post-list">
+            <div class="p-l-img"><img src="images/img8.jpg" alt="" /></div>
+            <div class="p-l-text">
+              <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
+              <a class="p-l-text-a-2" href="#">ui design</a>
+            </div>
+          </div>
+
+          <div class="post-list">
+            <div class="p-l-img"><img src="images/img5.jpg" alt="" /></div>
+            <div class="p-l-text">
+              <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
+              <a class="p-l-text-a-3" href="#">Photograpy</a>
+            </div>
+          </div>
+
+          <div class="post-list">
+            <div class="p-l-img"><img src="images/img10.jpg" alt="" /></div>
+            <div class="p-l-text">
+              <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
+              <a class="p-l-text-a-4" href="#">book</a>
+            </div>
+          </div>
+
+          <div class="post-list">
+            <div class="p-l-img"><img src="images/img3.jpg" alt="" /></div>
+            <div class="p-l-text">
+              <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
+              <a class="p-l-text-a-5" href="#">ui design</a>
+            </div>
+          </div>
+        </div>
+        <!-- contact us -->
+        <div class="c-u">
+          <h2 class="heading">CONTACT US</h2>
+          <div class="line"></div>
+          <div class="address">
+            <p class="text">
+              10044 West 23th Street, Suite 721 <br />
+              New York NY 10010<br />
+              Email: Username@email.com<br />
+              Phone: +1 (0) 123 4567 890<br />
+              Fax: +1 (0) 321 4567 890
+            </p>
+          </div>
+          <form action="#" method="post">
+            <input type="text" placeholder="Your Name..." />
+            <input type="email" placeholder="Your email..." />
+            <textarea name="textarea" placeholder="Your Message..."></textarea>
+            <input type="button" value="Send" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- as seen on -->
+    <section class="f-img-c">
+      <h2 class="heading">AS SEEN ON</h2>
+      <div class="line"></div>
+      <div class="f-img-img container">
+        <div class="f-img-imgs"><img src="images/cnn.png" alt="" /></div>
+        <div class="f-img-imgs"><img src="images/tc.png" alt="" /></div>
+        <div class="f-img-imgs"><img src="images/bbc.png" alt="" /></div>
+        <div class="f-img-imgs">
+          <img src="images/thenewtimes.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <div class="w-space"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
