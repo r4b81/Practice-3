@@ -16,6 +16,6 @@ $(document).ready(function(){
         }
     });
 
-
+    
     var mixer = mixitup('.imgGa-mix');
 });

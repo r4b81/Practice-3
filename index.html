@@ -7,11 +7,12 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
     <link rel="stylesheet" href="font/proxima_ssv/ProximaNova-Regular.otf" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/res.css">
+    <link rel="stylesheet" href="css/res.css" />
     <title>Hello</title>
     <script>
       function openNav() {
@@ -33,11 +34,19 @@
     <div class="banner" id="banner">
       <header class="header">
         <div id="myNav" class="nev overlay">
-          <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()">&times;</a>
+          <a
+            href="javascript:void(0)"
+            id="closebtn"
+            class="closebtn"
+            onclick="closeNav()"
+            >&times;</a
+          >
           <ul class="overlay-content">
             <li><a href="#banner" onclick="closeNav()">Home</a></li>
             <li><a href="#whatwedo" onclick="closeNav()">What we do?</a></li>
-            <li><a href="#testimonials" onclick="closeNav()">Testimonial</a></li>
+            <li>
+              <a href="#testimonials" onclick="closeNav()">Testimonial</a>
+            </li>
             <li><a href="#c-u" onclick="closeNav()">Contact Us</a></li>
           </ul>
         </div>
@@ -62,9 +71,10 @@
         <a href="#c-u">work with us</a>
       </div>
       <div class="sd-btn">
-        <a href="#whatwedo"><span>scroll down</span> 
-        <i class="material-icons sd-btn-icon">expand_more</i>
-      </a>
+        <a href="#whatwedo"
+          ><span>scroll down</span>
+          <i class="material-icons sd-btn-icon">expand_more</i>
+        </a>
       </div>
     </div>
 
@@ -74,40 +84,40 @@
       class="whatwedo container m-a-all js--sticky--waypoint"
       id="whatwedo"
     >
-      <h2 class="heading">What we do</h2>
-      <div class="line"></div>
-      <p class="text">
+      <h2 class="heading" data-aos="fade-up">What we do</h2>
+      <div class="line" data-aos="fade-up"></div>
+      <p class="text" data-aos="fade-up">
         Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
       </p>
       <div class="whatwedoitem">
-        <div class="itemBx">
-          <img src="images/item1.png" alt="" />
-          <h2>lorem ipsum</h2>
-          <p>
+        <div class="itemBx" data-aos="slide-right">
+          <img src="images/item1.png" alt="" data-aos="fade-right"/>
+          <h2 data-aos="fade-right">lorem ipsum</h2>
+          <p data-aos="fade-right">
             This is Photoshop's version Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Fugiat deleniti cupiditate ad facilis, quos optio!
           </p>
-          <a href="#">Learn more</a>
+          <a href="#" data-aos="fade-up-right">Learn more</a>
         </div>
 
-        <div class="itemBx">
-          <img src="images/item2.png" alt="" />
-          <h2>lorem ipsum</h2>
-          <p>
+        <div class="itemBx" data-aos="slide-up">
+          <img src="images/item2.png" alt="" data-aos="fade-up"/>
+          <h2 data-aos="fade-up">lorem ipsum</h2>
+          <p data-aos="fade-up">
             This is Photoshop's version Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Fugiat deleniti cupiditate ad facilis, quos optio!
           </p>
-          <a href="#">Learn more</a>
+          <a href="#" data-aos="slide-up">Learn more</a>
         </div>
 
-        <div class="itemBx">
-          <img src="images/item3.png" alt="" />
-          <h2>lorem ipsum</h2>
-          <p>
+        <div class="itemBx" data-aos="slide-left">
+          <img src="images/item3.png" alt="" data-aos="fade-left"/>
+          <h2 data-aos="fade-left">lorem ipsum</h2>
+          <p data-aos="fade-left">
             This is Photoshop's version Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Fugiat deleniti cupiditate ad facilis, quos optio!
           </p>
-          <a href="#">Learn more</a>
+          <a href="#" data-aos="fade-up-left">Learn more</a>
         </div>
       </div>
     </section>
@@ -115,61 +125,61 @@
     <!-- our latest work -->
 
     <section class="o-l-w" id="o-l-w">
-      <h2 class="heading">OUR LATEST WORK</h2>
-      <div class="line"></div>
-      <p class="text">
+      <h2 class="heading" data-aos="zoom-out">OUR LATEST WORK</h2>
+      <div class="line" data-aos="zoom-out-up"></div>
+      <p class="text" data-aos="zoom-out-down">
         Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
       </p>
 
       <div class="st-btn">
-        <button class="st-btn-1" type="button" data-filter="all">All</button>
-        <button class="st-btn-2" type="button" data-filter=".photograpy">
+        <button class="st-btn-1" type="button" data-filter="all" data-aos="fade-down-right">All</button>
+        <button class="st-btn-2" type="button" data-filter=".photograpy" data-aos="fade-up-right">
           Photograpy
         </button>
-        <button class="st-btn-3" type="button" data-filter=".design">
+        <button class="st-btn-3" type="button" data-filter=".design" data-aos="fade-up-left">
           Design
         </button>
-        <button class="st-btn-4" type="button" data-filter=".print">
+        <button class="st-btn-4" type="button" data-filter=".print" data-aos="fade-down-left">
           Print
         </button>
       </div>
 
       <div class="imgGa container imgGa-mix">
-        <div class="imgGa-img mix photograpy">
-          <img src="images/img1.jpg" alt="" />
+        <div class="imgGa-img mix photograpy" >
+          <img src="images/img1.jpg" alt="" data-aos="fade-down-right" data-aos-offset="450"/>
         </div>
         <div class="imgGa-img mix design">
-          <img src="images/img2.jpg" alt="" />
+          <img src="images/img2.jpg" alt=""  data-aos="fade-down" data-aos-offset="450"/>
         </div>
         <div class="imgGa-img mix design print">
-          <img src="images/img3.jpg" alt="" />
+          <img src="images/img3.jpg" alt=""  data-aos="zoom-in-down" data-aos-offset="450"/>
         </div>
         <div class="imgGa-img mix photograpy">
-          <img src="images/img4.jpg" alt="" />
+          <img src="images/img4.jpg" alt=""  data-aos="fade-down" data-aos-offset="450"/>
         </div>
         <div class="imgGa-img mix design">
-          <img src="images/img5.jpg" alt="" />
+          <img src="images/img5.jpg" alt="" data-aos="fade-down-left" data-aos-offset="450"/>
         </div>
         <div class="imgGa-img mix design">
-          <img src="images/img6.jpg" alt="" />
+          <img src="images/img6.jpg" alt="" data-aos="fade-up-right"/>
         </div>
         <div class="imgGa-img mix design print">
-          <img src="images/img7.jpg" alt="" />
+          <img src="images/img7.jpg" alt=""  data-aos="fade-up"/>
         </div>
         <div class="imgGa-img mix photograpy">
-          <img src="images/img8.jpg" alt="" />
+          <img src="images/img8.jpg" alt=""  data-aos="zoom-in-up"/>
         </div>
         <div class="imgGa-img mix photograpy print">
-          <img src="images/img9.jpg" alt="" />
+          <img src="images/img9.jpg" alt=""  data-aos="fade-up"/>
         </div>
         <div class="imgGa-img mix photograpy">
-          <img src="images/img10.jpg" alt="" />
+          <img src="images/img10.jpg" alt="" data-aos="fade-up-left"/>
         </div>
       </div>
-      <div class="content">
+      <div class="content" data-aos="zoom-in" data-aos-offset="50">
         <a href="javascript: void(0)"
           ><p style="display: inline-block;">View more work</p>
-          <i class="material-icons">trending_flat</i></a
+          <i class="material-icons" data-aos="slide-right" data-aos-offset="100"  data-aos-easing="ease-in-sine">trending_flat</i></a
         >
       </div>
     </section>
@@ -177,13 +187,13 @@
     <!-- testimonials -->
 
     <section class="testimonials container m-a-all" id="testimonials">
-      <h2 class="heading">TESTIMONIALS</h2>
-      <div class="line"></div>
-      <p class="text">
+      <h2 class="heading" data-aos="fade-up">TESTIMONIALS</h2>
+      <div class="line" data-aos="fade"></div>
+      <p class="text" data-aos="fade-down">
         Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
       </p>
 
-      <div class="testi-text">
+      <div class="testi-text" data-aos="zoom-in-down">
         <!-- <i class="material-icons">keyboard_arrow_left</i> -->
         <div class="t-t-text">
           <p>
@@ -245,25 +255,25 @@
     <!-- our happy client -->
 
     <section class="ohc" id="ohc">
-      <h2 class="heading">OUR HAPPY CLIENT</h2>
-      <div class="line"></div>
-      <p class="text">
+      <h2 class="heading" data-aos="zoom-in-up">OUR HAPPY CLIENT</h2>
+      <div class="line" data-aos="slide-up"></div>
+      <p class="text" data-aos="fade-up">
         Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
       </p>
 
       <div class="ohc-logo container">
-        <div class="ohc-img"><img src="images/google.png" alt="" /></div>
-        <div class="ohc-img"><img src="images/yahoo.png" alt="" /></div>
-        <div class="ohc-img"><img src="images/microsoft.png" alt="" /></div>
-        <div class="ohc-img"><img src="images/intel.png" alt="" /></div>
-        <div class="ohc-img"><img src="images/qualcomm.png" alt="" /></div>
-        <div class="ohc-img"><img src="images/cisco.png" alt="" /></div>
+        <div class="ohc-img"><img src="images/google.png" alt="" data-aos="fade-right"/></div>
+        <div class="ohc-img"><img src="images/yahoo.png" alt="" data-aos="slide-right"/></div>
+        <div class="ohc-img"><img src="images/microsoft.png" alt="" data-aos="slide-left"/></div>
+        <div class="ohc-img"><img src="images/intel.png" alt="" data-aos="fade-left"/></div>
+        <div class="ohc-img"><img src="images/qualcomm.png" alt="" data-aos="fade-right"/></div>
+        <div class="ohc-img"><img src="images/cisco.png" alt="" data-aos="slide-right"/></div>
         <div class="ohc-img">
-          <img class="apple" src="images/apple.png" alt="" />
+          <img class="apple" src="images/apple.png" alt="" data-aos="slide-left"/>
         </div>
-        <div class="ohc-img"><img src="images/asus.png" alt="" /></div>
+        <div class="ohc-img"><img src="images/asus.png" alt="" data-aos="slide-left"/></div>
       </div>
-      <div class="content">
+      <div class="content" data-aos="zoom-out-up" data-aos-offset="50">
         <a href="#"
           ><p style="display: inline-block;">See all client</p>
           <i class="material-icons">trending_flat</i></a
@@ -274,14 +284,14 @@
     <!-- meet the team -->
 
     <section class="m-t-team">
-      <h2 class="heading">OUR HAPPY CLIENT</h2>
-      <div class="line"></div>
-      <p class="text">
+      <h2 class="heading" data-aos="zoom-in-up">OUR HAPPY CLIENT</h2>
+      <div class="line" data-aos="zoom-in-up"></div>
+      <p class="text" data-aos="zoom-in-up">
         Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.
       </p>
 
       <div class="team-mem container">
-        <div class="team-list">
+        <div class="team-list" data-aos="zoom-in-right">
           <div class="imgBxx imgBxx1"></div>
           <div class="line-b-r"></div>
           <h2 class="t-m-name">Krisna Wijaya</h2>
@@ -292,7 +302,7 @@
           </div>
         </div>
 
-        <div class="team-list">
+        <div class="team-list" data-aos="zoom-in-up">
           <div class="imgBxx imgBxx2"></div>
           <div class="line-b-r"></div>
           <h2 class="t-m-name">Gabriel Yoshua</h2>
@@ -303,7 +313,7 @@
           </div>
         </div>
 
-        <div class="team-list">
+        <div class="team-list" data-aos="zoom-in">
           <div class="imgBxx imgBxx3"></div>
           <div class="line-b-r"></div>
           <h2 class="t-m-name">Adik N.K.L</h2>
@@ -314,7 +324,7 @@
           </div>
         </div>
 
-        <div class="team-list">
+        <div class="team-list" data-aos="zoom-in-up">
           <div class="imgBxx imgBxx4"></div>
           <div class="line-b-r"></div>
           <h2 class="t-m-name">Zan D.J</h2>
@@ -325,7 +335,7 @@
           </div>
         </div>
 
-        <div class="team-list">
+        <div class="team-list" data-aos="zoom-in-left">
           <div class="imgBxx imgBxx5"></div>
           <div class="line-b-r"></div>
           <h2 class="t-m-name">Faizal Febri</h2>
@@ -340,8 +350,8 @@
 
     <!-- work with us -->
 
-    <section class="wwu" id="wwu">
-      <div class="content">
+    <section class="wwu" id="wwu" >
+      <div class="content" data-aos="zoom-in">
         <a href="#c-u">work with us</a>
       </div>
     </section>
@@ -351,9 +361,9 @@
       <div class="container m-a-all">
         <!-- about us -->
         <div class="about-us">
-          <h2 class="heading">about us</h2>
-          <div class="line"></div>
-          <p class="text">
+          <h2 class="heading" data-aos="fade-right">about us</h2>
+          <div class="line" data-aos="zoom-in-up"></div>
+          <p class="text" data-aos="zoom-in-up">
             Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor
             aliquet. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Asperiores aliquid tenetur neque tempore deserunt cum numquam
@@ -362,17 +372,18 @@
             aliquid. Neque, aperiam. Eos dolores sequi quos animi maiores
             officia. Dignissimos sunt eos labore culpa nulla dolorum sed est!
           </p>
-          <div class="t-m-s-link">
-            <a href="#"><img src="images/icon1.png" alt="" /></a>
-            <a href="#"><img src="images/icon2.png" alt="" /></a>
-            <a href="#"><img src="images/icon3.png" alt="" /></a>
+          <div class="t-m-s-link" data-aos="zoom-out">
+            <a href="#"><img src="images/icon1.png" alt="" data-aos="fade-up-right" data-aos-offset="300"/></a>
+            <a href="#"><img src="images/icon2.png" alt="" data-aos="zoom-out-up" data-aos-offset="300"/></a>
+            <a href="#"><img src="images/icon3.png" alt="" data-aos="fade-up-left" data-aos-offset="300"/></a>
           </div>
         </div>
         <!-- recent posts -->
         <div class="recent-posts">
-          <h2 class="heading">RECENT POSTS</h2>
-          <div class="line"></div>
-          <div class="post-list">
+          <h2 class="heading" data-aos="zoom-in-up">RECENT POSTS</h2>
+          <div class="line" data-aos="zoom-in-up"></div>
+
+          <div class="post-list" data-aos="zoom-in-up">
             <div class="p-l-img"><img src="images/img1.jpg" alt="" /></div>
             <div class="p-l-text">
               <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
@@ -380,7 +391,7 @@
             </div>
           </div>
 
-          <div class="post-list">
+          <div class="post-list" data-aos="zoom-in-up">
             <div class="p-l-img"><img src="images/img8.jpg" alt="" /></div>
             <div class="p-l-text">
               <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
@@ -388,15 +399,15 @@
             </div>
           </div>
 
-          <div class="post-list">
-            <div class="p-l-img"><img src="images/img5.jpg" alt="" /></div>
+          <div class="post-list" data-aos="zoom-in-up">
+            <div class="p-l-img"><img src="images/img5.jpg" alt=""/></div>
             <div class="p-l-text">
               <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
               <a class="p-l-text-a-3" href="#">Photograpy</a>
             </div>
           </div>
 
-          <div class="post-list">
+          <div class="post-list" data-aos="zoom-in-up">
             <div class="p-l-img"><img src="images/img10.jpg" alt="" /></div>
             <div class="p-l-text">
               <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
@@ -404,7 +415,7 @@
             </div>
           </div>
 
-          <div class="post-list">
+          <div class="post-list" data-aos="zoom-in-up" data-aos-offset="200">
             <div class="p-l-img"><img src="images/img3.jpg" alt="" /></div>
             <div class="p-l-text">
               <h2 class="heading">Lorem ipsum dolor sit amet.</h2>
@@ -414,10 +425,10 @@
         </div>
         <!-- contact us -->
         <div class="c-u" id="c-u">
-          <h2 class="heading">CONTACT US</h2>
-          <div class="line"></div>
-          <div class="address">
-            <p class="text">
+          <h2 class="heading" data-aos="fade-left">CONTACT US</h2>
+          <div class="line" data-aos="zoom-in-up"></div>
+          <div class="address" data-aos="zoom-in-up">
+            <p class="text" data-aos="zoom-in-up">
               10044 West 23th Street, Suite 721 <br />
               New York NY 10010<br />
               Email: Username@email.com<br />
@@ -425,7 +436,7 @@
               Fax: +1 (0) 321 4567 890
             </p>
           </div>
-          <form action="#" method="post">
+          <form action="#" method="post" data-aos="zoom-in-up">
             <input type="text" placeholder="Your Name..." />
             <input type="email" placeholder="Your email..." />
             <textarea name="textarea" placeholder="Your Message..."></textarea>
@@ -436,9 +447,9 @@
     </section>
     <!-- as seen on -->
     <section class="f-img-c">
-      <h2 class="heading">AS SEEN ON</h2>
-      <div class="line"></div>
-      <div class="f-img-img container">
+      <h2 class="heading" data-aos="zoom-in-up" data-aos-offset="100">AS SEEN ON</h2>
+      <div class="line" data-aos="zoom-in-up" data-aos-offset="100"></div>
+      <div class="f-img-img container" data-aos="zoom-in-up" data-aos-offset="100">
         <div class="f-img-imgs"><img src="images/cnn.png" alt="" /></div>
         <div class="f-img-imgs"><img src="images/tc.png" alt="" /></div>
         <div class="f-img-imgs"><img src="images/bbc.png" alt="" /></div>
@@ -448,6 +459,13 @@
       </div>
     </section>
     <div class="w-space"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 250,
+        duration: 900,
+      });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/smooth-scroll.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>

@@ -78,9 +78,11 @@
     .banner .header .nev{
         width: 100%;
     }
-    .banner .header .nev .closebtn,
-    .banner .header .openNav{
+    .banner .header .nev .closebtn{
         display: block;
+    }
+    .banner .header .openNav{
+        visibility: visible;
     }
     .overlay{
         position: fixed;

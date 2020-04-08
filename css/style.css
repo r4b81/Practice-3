@@ -54,9 +54,11 @@ html{
         opacity: 1;
     }
 }
-.banner .header .nev .closebtn,
-.banner .header .openNav{
+.banner .header .nev .closebtn{
     display: none;
+}
+.banner .header .openNav{
+    visibility: hidden;
 }
 .banner .header .nev ul{
     display: flex;
@@ -74,7 +76,6 @@ html{
     color: #ffffff;
     padding-top: 0.7rem;
     margin-right: 2rem;
-    transition: 0.2s;
 }
 .banner .header .nev ul li:hover a,
 .banner .header .nev ul li:focus a{
@@ -191,6 +192,7 @@ html{
     padding: 1rem 3.5rem;
     border-radius: 3.5rem;
     opacity: 0;
+    transition: 1s;
     animation: b-c-a-ani 1s ease 4s forwards;
 }
 @keyframes b-c-a-ani{
@@ -638,6 +640,18 @@ html{
     width: 100%;
     height: 5vh;
     background: #cfcece;
+    animation: color-change 1.5s infinite;
+}
+@keyframes color-change {
+    0%{
+        background: #cfcece;
+    }
+    50%{
+        background: #2b9b2b;
+    }
+    100%{
+        background: #cfcece;
+    }
 }
 .footer{
     background: #333333;
