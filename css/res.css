@@ -10,6 +10,7 @@
     }
 }
 @media (max-width: 768px){
+
     .whatwedo, .o-l-w{
         padding: 2rem 2rem 2rem;
     }
@@ -27,14 +28,17 @@
         padding: 2rem;
     }
     .about-us{
+        order: 1;
         width: 100%;
         background: #444444;
     }
     .recent-posts{
+        order: 3;
         width: 50%;
         background: #1a1a1a;
     }
     .c-u{
+        order: 2;
         width: 50%;
     }
     .f-img-c{
